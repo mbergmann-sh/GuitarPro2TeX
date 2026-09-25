@@ -1,0 +1,5764 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE score-partwise PUBLIC '-//Recordare//DTD MusicXML 2.0 Partwise//EN' 'http://www.musicxml.org/dtds/2.0/partwise.dtd'>
+<score-partwise version="2.0">
+ <work>
+  <work-title>AMAZING GRACE</work-title>
+ </work>
+ <identification>
+  <creator type="composer">Traditional</creator>
+  <rights>© All Rights Reserved - International Copyright Secured</rights>
+  <encoding>
+   <encoding-date>2026-09-25</encoding-date>
+   <software>Guitar Pro 8.1.4</software>
+   <supports attribute="new-system" value="yes" type="yes" element="print"/>
+  </encoding>
+ </identification>
+ <defaults>
+  <scaling>
+   <millimeters>6.4</millimeters>
+   <tenths>40</tenths>
+  </scaling>
+  <page-layout>
+   <page-height>1850</page-height>
+   <page-width>1310</page-width>
+  </page-layout>
+ </defaults>
+ <credit>
+  <credit-words default-y="1790" justify="center" default-x="655" valign="top" font-size="24">AMAZING GRACE</credit-words>
+ </credit>
+ <credit>
+  <credit-words default-y="1735.08" justify="center" default-x="655" valign="top" font-size="14">Arranged by Andry Ravaloson</credit-words>
+ </credit>
+ <credit>
+  <credit-words default-y="1704.85" justify="center" default-x="655" valign="top" font-size="14">Traditional</credit-words>
+ </credit>
+ <part-list>
+  <score-part id="P1">
+   <part-name>Singer</part-name>
+   <part-abbreviation>sng.</part-abbreviation>
+   <midi-instrument id="P1">
+    <midi-channel>1</midi-channel>
+    <midi-bank>1</midi-bank>
+    <midi-program>26</midi-program>
+    <volume>80</volume>
+    <pan>0</pan>
+   </midi-instrument>
+  </score-part>
+ </part-list>
+ <part id="P1">
+  <measure number="0">
+   <print new-system="yes"/>
+   <attributes>
+    <divisions>2</divisions>
+    <key>
+     <fifths>3</fifths>
+     <mode>major</mode>
+    </key>
+    <time>
+     <beats>3</beats>
+     <beat-type>4</beat-type>
+    </time>
+    <staves>2</staves>
+    <clef number="1">
+     <sign>G</sign>
+     <line>2</line>
+    </clef>
+    <clef number="2">
+     <sign>TAB</sign>
+     <line>5</line>
+    </clef>
+    <staff-details number="1">
+<?GP 
+<root>
+<staff-tuning line="1">
+<tuning-step>E</tuning-step>
+<tuning-octave>2</tuning-octave>
+</staff-tuning>
+<staff-tuning line="2">
+<tuning-step>A</tuning-step>
+<tuning-octave>2</tuning-octave>
+</staff-tuning>
+<staff-tuning line="3">
+<tuning-step>D</tuning-step>
+<tuning-octave>3</tuning-octave>
+</staff-tuning>
+<staff-tuning line="4">
+<tuning-step>G</tuning-step>
+<tuning-octave>3</tuning-octave>
+</staff-tuning>
+<staff-tuning line="5">
+<tuning-step>B</tuning-step>
+<tuning-octave>3</tuning-octave>
+</staff-tuning>
+<staff-tuning line="6">
+<tuning-step>E</tuning-step>
+<tuning-octave>4</tuning-octave>
+</staff-tuning>
+</root>
+?>
+    </staff-details>
+    <staff-details number="2">
+     <staff-lines>6</staff-lines>
+     <staff-tuning line="1">
+      <tuning-step>E</tuning-step>
+      <tuning-octave>2</tuning-octave>
+     </staff-tuning>
+     <staff-tuning line="2">
+      <tuning-step>A</tuning-step>
+      <tuning-octave>2</tuning-octave>
+     </staff-tuning>
+     <staff-tuning line="3">
+      <tuning-step>D</tuning-step>
+      <tuning-octave>3</tuning-octave>
+     </staff-tuning>
+     <staff-tuning line="4">
+      <tuning-step>G</tuning-step>
+      <tuning-octave>3</tuning-octave>
+     </staff-tuning>
+     <staff-tuning line="5">
+      <tuning-step>B</tuning-step>
+      <tuning-octave>3</tuning-octave>
+     </staff-tuning>
+     <staff-tuning line="6">
+      <tuning-step>E</tuning-step>
+      <tuning-octave>4</tuning-octave>
+     </staff-tuning>
+    </staff-details>
+   </attributes>
+   <direction directive="yes">
+    <direction-type>
+     <metronome default-y="40" parentheses="no">
+      <beat-unit>quarter</beat-unit>
+      <per-minute>60</per-minute>
+     </metronome>
+    </direction-type>
+    <direction-type>
+     <metronome>
+      <metronome-note>
+       <metronome-type>eighth</metronome-type>
+       <metronome-beam number="1">begin</metronome-beam>
+      </metronome-note>
+      <metronome-note>
+       <metronome-type>eighth</metronome-type>
+       <metronome-beam number="1">end</metronome-beam>
+      </metronome-note>
+      <metronome-relation>equals</metronome-relation>
+      <metronome-note>
+       <metronome-type>quarter</metronome-type>
+       <metronome-tuplet bracket="yes" type="start">
+        <actual-notes>3</actual-notes>
+        <normal-notes>2</normal-notes>
+        <normal-type>eighth</normal-type>
+       </metronome-tuplet>
+      </metronome-note>
+      <metronome-note>
+       <metronome-type>eighth</metronome-type>
+       <metronome-tuplet bracket="yes" type="stop">
+        <actual-notes>3</actual-notes>
+        <normal-notes>2</normal-notes>
+        <normal-type>eighth</normal-type>
+       </metronome-tuplet>
+      </metronome-note>
+     </metronome>
+    </direction-type>
+    <sound tempo="60"/>
+   </direction>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>0</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>A-</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>5</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>2</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>0</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>A-</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>5</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <barline>
+    <bar-style>light-light</bar-style>
+   </barline>
+  </measure>
+  <measure number="1">
+   <attributes>
+    <divisions>6</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>9</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>5</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>ma-</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>3</duration>
+    <tie type="start"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>9</fret>
+</root>
+?>
+     </technical>
+     <tied type="start"/>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>zing</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>2</duration>
+    <tie type="stop"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="start"/>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>9</fret>
+</root>
+?>
+     </technical>
+     <tied type="stop"/>
+    </notations>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>7</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="stop"/>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>5</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>18</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>9</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>up</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>5</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>ma-</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>3</duration>
+    <tie type="start"/>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>9</fret>
+     </technical>
+     <tied type="start"/>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>zing</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>2</duration>
+    <tie type="stop"/>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="start"/>
+     <technical>
+      <string>1</string>
+      <fret>9</fret>
+     </technical>
+     <tied type="stop"/>
+    </notations>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">continue</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>7</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="stop"/>
+     <technical>
+      <string>1</string>
+      <fret>5</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="2">
+   <attributes>
+    <divisions>1</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>9</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>Grace,</text>
+    </lyric>
+   </note>
+   <note>
+    <rest/>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>7</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>how</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>3</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>9</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>Grace,</text>
+    </lyric>
+   </note>
+   <note>
+    <rest/>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>7</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>how</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="3">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>half</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>5</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>sweet</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>F</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>2</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>the</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>3</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>half</type>
+    <stem>up</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>5</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>sweet</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>F</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>2</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>the</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="4">
+   <attributes>
+    <divisions>2</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>0</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>sound,</text>
+    </lyric>
+   </note>
+   <note>
+    <rest/>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>0</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>that</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>5</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>6</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>0</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>sound,</text>
+    </lyric>
+   </note>
+   <note>
+    <rest/>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>0</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>that</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>5</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="5">
+   <print new-system="yes"/>
+   <attributes>
+    <divisions>3</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>6</duration>
+    <voice>1</voice>
+    <type>half</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>5</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>saved</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="start"/>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>9</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>a</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>7</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="stop"/>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>5</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>9</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>6</duration>
+    <voice>5</voice>
+    <type>half</type>
+    <stem>up</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>5</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>saved</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="start"/>
+     <technical>
+      <string>1</string>
+      <fret>9</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>a</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">continue</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>7</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="stop"/>
+     <technical>
+      <string>1</string>
+      <fret>5</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="6">
+   <attributes>
+    <divisions>2</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>4</duration>
+    <voice>1</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>9</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>wretch</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>7</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>li-</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>9</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>ke</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>6</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>4</duration>
+    <voice>5</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>9</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>wretch</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>7</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>li-</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>9</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>ke</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="7">
+   <attributes>
+    <divisions>1</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>3</duration>
+    <tie type="start"/>
+    <voice>1</voice>
+    <type>half</type>
+    <dot/>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>12</fret>
+</root>
+?>
+     </technical>
+     <tied type="start"/>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>me.</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>3</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>3</duration>
+    <tie type="start"/>
+    <voice>5</voice>
+    <type>half</type>
+    <dot/>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>12</fret>
+     </technical>
+     <tied type="start"/>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>me.</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="8">
+   <attributes>
+    <divisions>2</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>2</duration>
+    <tie type="stop"/>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>12</fret>
+</root>
+?>
+     </technical>
+     <tied type="stop"/>
+    </notations>
+   </note>
+   <note>
+    <rest/>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>9</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>I</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>12</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>6</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>2</duration>
+    <tie type="stop"/>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>12</fret>
+     </technical>
+     <tied type="stop"/>
+    </notations>
+   </note>
+   <note>
+    <rest/>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>9</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>I</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>12</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="9">
+   <print new-system="yes"/>
+   <attributes>
+    <divisions>3</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>6</duration>
+    <voice>1</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>12</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>once</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="start"/>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>9</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>was</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>7</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="stop"/>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>5</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>9</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>6</duration>
+    <voice>5</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>12</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>once</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="start"/>
+     <technical>
+      <string>1</string>
+      <fret>9</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>was</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">continue</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>7</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="stop"/>
+     <technical>
+      <string>1</string>
+      <fret>5</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="10">
+   <attributes>
+    <divisions>1</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>9</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>lost</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>7</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>but</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>3</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>9</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>lost</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>7</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>but</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="11">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>half</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>5</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>now</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>F</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>2</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>I'm</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>3</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>half</type>
+    <stem>up</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>5</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>now</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>F</step>
+     <alter>1</alter>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>2</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>I'm</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="12">
+   <attributes>
+    <divisions>2</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>0</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>found,</text>
+    </lyric>
+   </note>
+   <note>
+    <rest/>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>0</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>was</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>5</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>6</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>0</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>found,</text>
+    </lyric>
+   </note>
+   <note>
+    <rest/>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>0</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>was</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>up</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>5</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="13">
+   <print new-system="yes"/>
+   <attributes>
+    <divisions>6</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>9</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>5</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>blind,</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>3</duration>
+    <tie type="start"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>9</fret>
+</root>
+?>
+     </technical>
+     <tied type="start"/>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>but</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>2</duration>
+    <tie type="stop"/>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="start"/>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>9</fret>
+</root>
+?>
+     </technical>
+     <tied type="stop"/>
+    </notations>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>7</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="stop"/>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>5</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>18</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>9</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <dot/>
+    <stem>up</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>5</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>blind,</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>3</duration>
+    <tie type="start"/>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>9</fret>
+     </technical>
+     <tied type="start"/>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>but</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>2</duration>
+    <tie type="stop"/>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="start"/>
+     <technical>
+      <string>1</string>
+      <fret>9</fret>
+     </technical>
+     <tied type="stop"/>
+    </notations>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">continue</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>7</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="stop"/>
+     <technical>
+      <string>1</string>
+      <fret>5</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="14">
+   <attributes>
+    <divisions>1</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>9</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>now</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>7</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>I</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>3</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>9</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>now</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>7</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>I</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="15">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>3</duration>
+    <tie type="start"/>
+    <voice>1</voice>
+    <type>half</type>
+    <dot/>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>5</fret>
+</root>
+?>
+     </technical>
+     <tied type="start"/>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>see.</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>3</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>3</duration>
+    <tie type="start"/>
+    <voice>5</voice>
+    <type>half</type>
+    <dot/>
+    <stem>up</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>5</fret>
+     </technical>
+     <tied type="start"/>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>see.</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="16">
+   <attributes>
+    <divisions>2</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>2</duration>
+    <tie type="stop"/>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>5</fret>
+</root>
+?>
+     </technical>
+     <tied type="stop"/>
+    </notations>
+   </note>
+   <note>
+    <rest/>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>12</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>'twas</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>17</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>6</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>4</octave>
+    </pitch>
+    <duration>2</duration>
+    <tie type="stop"/>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>up</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>5</fret>
+     </technical>
+     <tied type="stop"/>
+    </notations>
+   </note>
+   <note>
+    <rest/>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>12</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>'twas</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>17</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <barline>
+    <bar-style>light-light</bar-style>
+   </barline>
+  </measure>
+  <measure number="17">
+   <print new-system="yes"/>
+   <attributes>
+    <divisions>3</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>6</duration>
+    <voice>1</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>17</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>Grace</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>6</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="start"/>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>21</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>that</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>19</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="stop"/>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>17</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>9</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>6</duration>
+    <voice>5</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>17</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>Grace</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>6</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="start"/>
+     <technical>
+      <string>1</string>
+      <fret>21</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>that</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">continue</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>19</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="stop"/>
+     <technical>
+      <string>1</string>
+      <fret>17</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="18">
+   <attributes>
+    <divisions>1</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>6</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>21</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>taught,</text>
+    </lyric>
+   </note>
+   <note>
+    <rest/>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>19</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>my</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>3</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>6</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>21</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>taught,</text>
+    </lyric>
+   </note>
+   <note>
+    <rest/>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>19</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>my</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="19">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>17</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>heart</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>F</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>14</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>to</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>3</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>17</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>heart</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>F</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>14</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>to</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="20">
+   <attributes>
+    <divisions>2</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>12</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>fear.</text>
+    </lyric>
+   </note>
+   <note>
+    <rest/>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>12</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>And</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>17</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>6</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>12</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>fear.</text>
+    </lyric>
+   </note>
+   <note>
+    <rest/>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>12</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>And</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>17</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="21">
+   <print new-system="yes"/>
+   <attributes>
+    <divisions>3</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>6</duration>
+    <voice>1</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>17</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>grace,</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>6</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="start"/>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>21</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>my</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>19</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="stop"/>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>17</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>9</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>6</duration>
+    <voice>5</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>17</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>grace,</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>6</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="start"/>
+     <technical>
+      <string>1</string>
+      <fret>21</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>my</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">continue</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>19</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="stop"/>
+     <technical>
+      <string>1</string>
+      <fret>17</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="22">
+   <attributes>
+    <divisions>2</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>6</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>21</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>fears</text>
+    </lyric>
+   </note>
+   <note>
+    <rest/>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>19</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>re-</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>6</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>21</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>6</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>6</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>21</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>fears</text>
+    </lyric>
+   </note>
+   <note>
+    <rest/>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>19</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>re-</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>6</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>21</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="23">
+   <attributes>
+    <divisions>1</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>6</octave>
+    </pitch>
+    <duration>3</duration>
+    <tie type="start"/>
+    <voice>1</voice>
+    <type>half</type>
+    <dot/>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>24</fret>
+</root>
+?>
+     </technical>
+     <tied type="start"/>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>lieved.</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>3</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>6</octave>
+    </pitch>
+    <duration>3</duration>
+    <tie type="start"/>
+    <voice>5</voice>
+    <type>half</type>
+    <dot/>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>24</fret>
+     </technical>
+     <tied type="start"/>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>lieved.</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="24">
+   <attributes>
+    <divisions>2</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>6</octave>
+    </pitch>
+    <duration>2</duration>
+    <tie type="stop"/>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>24</fret>
+</root>
+?>
+     </technical>
+     <tied type="stop"/>
+    </notations>
+   </note>
+   <note>
+    <rest/>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>6</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>21</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>How</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>6</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>24</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>6</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>6</octave>
+    </pitch>
+    <duration>2</duration>
+    <tie type="stop"/>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>24</fret>
+     </technical>
+     <tied type="stop"/>
+    </notations>
+   </note>
+   <note>
+    <rest/>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>6</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>21</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>How</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>6</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>24</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="25">
+   <print new-system="yes"/>
+   <attributes>
+    <divisions>3</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>6</octave>
+    </pitch>
+    <duration>6</duration>
+    <voice>1</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>24</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>pre-</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>6</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="start"/>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>21</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>cious</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>19</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="stop"/>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>17</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>9</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>6</octave>
+    </pitch>
+    <duration>6</duration>
+    <voice>5</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>24</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>pre-</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>6</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="start"/>
+     <technical>
+      <string>1</string>
+      <fret>21</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>cious</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">continue</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>19</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="stop"/>
+     <technical>
+      <string>1</string>
+      <fret>17</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="26">
+   <attributes>
+    <divisions>1</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>6</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>21</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>did</text>
+    </lyric>
+   </note>
+   <note>
+    <rest/>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>19</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>that</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>3</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>6</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>21</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>did</text>
+    </lyric>
+   </note>
+   <note>
+    <rest/>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>19</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>that</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="27">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>17</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>grace</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>F</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>14</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>a-</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>3</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>17</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>grace</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>F</step>
+     <alter>1</alter>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>14</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>a-</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="28">
+   <attributes>
+    <divisions>2</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>12</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>ppear,</text>
+    </lyric>
+   </note>
+   <note>
+    <rest/>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <staff>1</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>12</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>the</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>17</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>6</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>12</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>ppear,</text>
+    </lyric>
+   </note>
+   <note>
+    <rest/>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <staff>2</staff>
+   </note>
+   <note>
+    <pitch>
+     <step>E</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>12</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>the</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>17</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="29">
+   <print new-system="yes"/>
+   <attributes>
+    <divisions>3</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>6</duration>
+    <voice>1</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>17</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>hour</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>6</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="start"/>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>21</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>I</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">continue</beam>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>19</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="stop"/>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>17</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>9</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>6</duration>
+    <voice>5</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>17</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>hour</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>6</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">begin</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="start"/>
+     <technical>
+      <string>1</string>
+      <fret>21</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>I</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">continue</beam>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>19</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>eighth</type>
+    <time-modification>
+     <actual-notes>3</actual-notes>
+     <normal-notes>2</normal-notes>
+    </time-modification>
+    <stem>down</stem>
+    <staff>2</staff>
+    <beam number="1">end</beam>
+    <notations>
+     <tuplet placement="below" number="1" bracket="yes" type="stop"/>
+     <technical>
+      <string>1</string>
+      <fret>17</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>__</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="30">
+   <attributes>
+    <divisions>1</divisions>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <direction placement="above" directive="yes">
+    <direction-type>
+     <metronome default-y="40" parentheses="no">
+      <beat-unit>quarter</beat-unit>
+      <per-minute>49</per-minute>
+     </metronome>
+    </direction-type>
+    <sound tempo="49"/>
+   </direction>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>6</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>1</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>21</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>first</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>1</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>19</fret>
+</root>
+?>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>be-</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>3</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>C</step>
+     <alter>1</alter>
+     <octave>6</octave>
+    </pitch>
+    <duration>2</duration>
+    <voice>5</voice>
+    <type>half</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>21</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>first</text>
+    </lyric>
+   </note>
+   <note>
+    <pitch>
+     <step>B</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>1</duration>
+    <voice>5</voice>
+    <type>quarter</type>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>19</fret>
+     </technical>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>be-</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="31">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>3</duration>
+    <tie type="start"/>
+    <voice>1</voice>
+    <type>half</type>
+    <dot/>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>17</fret>
+</root>
+?>
+     </technical>
+     <tied type="start"/>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>lieved</text>
+    </lyric>
+   </note>
+   <backup>
+    <duration>3</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>3</duration>
+    <tie type="start"/>
+    <voice>5</voice>
+    <type>half</type>
+    <dot/>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>17</fret>
+     </technical>
+     <tied type="start"/>
+    </notations>
+    <lyric number="1">
+     <syllabic>single</syllabic>
+     <text>lieved</text>
+    </lyric>
+   </note>
+  </measure>
+  <measure number="32">
+   <attributes>
+    <staff-details number="1">
+<?GP 
+<root>
+</root>
+?>
+    </staff-details>
+   </attributes>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>3</duration>
+    <tie type="stop"/>
+    <voice>1</voice>
+    <type>half</type>
+    <dot/>
+    <stem>down</stem>
+    <notehead>normal</notehead>
+    <staff>1</staff>
+    <notations>
+     <technical>
+<?GP 
+<root>
+<string>1</string>
+<fret>17</fret>
+</root>
+?>
+     </technical>
+     <tied type="stop"/>
+    </notations>
+   </note>
+   <backup>
+    <duration>3</duration>
+   </backup>
+   <direction>
+    <direction-type>
+     <dynamics>
+      <mf/>
+     </dynamics>
+    </direction-type>
+   </direction>
+   <note>
+    <pitch>
+     <step>A</step>
+     <octave>5</octave>
+    </pitch>
+    <duration>3</duration>
+    <tie type="stop"/>
+    <voice>5</voice>
+    <type>half</type>
+    <dot/>
+    <stem>down</stem>
+    <staff>2</staff>
+    <notations>
+     <technical>
+      <string>1</string>
+      <fret>17</fret>
+     </technical>
+     <tied type="stop"/>
+    </notations>
+   </note>
+  </measure>
+ </part>
+</score-partwise>

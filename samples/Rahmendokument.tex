@@ -1,0 +1,27 @@
+% Minimal-Rahmendokument fuer ein GuitarPROtoTeX-Convert-Snippet
+%
+% Uebersetzen (empfohlen, mit Blocksatz der Notenzeilen):
+%     musixtex -l -p Rahmendokument.tex
+% oder von Hand:
+%     pdflatex Rahmendokument
+%     musixflx Rahmendokument
+%     pdflatex Rahmendokument
+%
+\documentclass{article}
+\usepackage[a4paper,margin=2cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}      % fuer den weissen Hintergrund der Bundzahlen
+\usepackage{musixtex}
+\usepackage{gchords}     % Griffbilder
+
+\raggedbottom            % Notensysteme sind unteilbar: Seiten nicht auf volle Hoehe strecken
+\begin{document}
+\begin{center}
+  {\Large Greensleeves}\\[1ex]
+  Fingerpicking f\"ur Akustikgitarre
+\end{center}
+
+\input{Greensleeves}     % das gespeicherte Snippet (Greensleeves.tex)
+
+\end{document}
